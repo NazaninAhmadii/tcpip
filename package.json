@@ -1,0 +1,19 @@
+{
+  "name": "dns-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "start:dns": "node dns.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  }
+}
